@@ -18,3 +18,9 @@ Lastley I used SVM where the model was not able to capture the bad credit with 0
 RandomUnderSampler where the percentange was arrond 50% for both.
 
 As a conculsion the KNighborsClassifier with using SMOTE is the one that we can count on.
+
+TensorFolw method :
+
+In the CREDIT1 nb file I used TensorFlow. With this technique I put attention to the outliers in the amount column. After removing the outliers , scaled the date to 
+
+proceed with TensorFlow method. The loss was very min but the accuracy was not that great.
